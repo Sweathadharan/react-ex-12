@@ -1,0 +1,75 @@
+body{
+  background-color: purple;
+}
+.App {
+  background-color: white;
+  font-family: poppins;
+  text-align: center;
+  border:2px solid grey;
+  width:60%;
+  height: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.question {
+  margin: 20px auto;
+  width: 60%;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
+.question h3 {
+  height: 80%;
+  margin-bottom: 10px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.options > li > button {
+  margin-bottom: 20px;
+  width: 250px;
+  border-radius: 35px;
+  margin: auto;
+
+}
+
+button {
+  padding: 10px 20px;
+  margin:20px;
+  width:100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(29, 173, 230);
+  
+}
+
+.pre{
+  background-color: rgba(0, 0, 255, 0.623);
+}
+.next{
+  background-color: green;
+}
+.quit{
+  background-color: red;
+}
+
+span{
+  position: relative;
+  bottom:70px;
+  left:-350px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+
+
+
